@@ -1,0 +1,6 @@
+deployment:
+    tasks:
+        - export DEPLOYPATH=~/app.thomas-claireau.fr/fcc/roman-numeral-converter
+        - /bin/cp -R * $DEPLOYPATH
+        - /bin/cp -R .htaccess $DEPLOYPATH
+        - $DEPLOYPATH/build.sh 2>&1

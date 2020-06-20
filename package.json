@@ -1,5 +1,5 @@
 {
-	"name": "vuejs-template-coming-soon",
+	"name": "fcc-roman-numeral-converter",
 	"version": "0.0.1",
 	"scripts": {
 		"serve": "vue-cli-service serve",
